@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Boxy Theme",
+		"Emmet",
+		"Github Tools",
+		"Jinja2",
+		"Origami",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"Vue Syntax Highlight"
+	]
+}
