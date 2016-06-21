@@ -7,15 +7,18 @@
 	[
 		"Boxy Theme",
 		"Emmet",
+		"ExpandRegion",
 		"Github Tools",
 		"Jinja2",
 		"Origami",
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
+		"StandardFormat",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-standard",
 		"Vue Syntax Highlight"
 	]
 }

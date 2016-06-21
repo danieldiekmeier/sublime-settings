@@ -1,15 +1,15 @@
 {
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
 		".git",
 		".hg",
 		"CVS",
-		"node_modules",
-		"dist"
+		"node_modules"
 	],
 	"font_face": "Roboto Mono",
 	"font_size": 19,
@@ -21,5 +21,10 @@
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
 	"scroll_past_end": true,
-	"theme": "Boxy Ocean.sublime-theme"
+	"theme": "Boxy Yesterday.sublime-theme",
+	"theme_accent_green": true,
+	"theme_sidebar_folder_arrow": true,
+	"theme_sidebar_folder_monochrome": true,
+	"theme_tab_selected_underlined": true,
+	"theme_tab_size_md": true
 }
