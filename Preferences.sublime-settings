@@ -15,7 +15,8 @@
 		"*.ttf",
 		"*.zip",
 		"dist/**",
-		"node_modules/**"
+		"node_modules/**",
+		"venv/**"
 	],
 	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
 	"draw_indent_guides": true,
@@ -34,6 +35,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Pylinter",
 		"Vintage"
 	],
 	"line_padding_bottom": 2,

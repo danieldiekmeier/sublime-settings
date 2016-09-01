@@ -5,7 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"Better CoffeeScript",
 		"Boxy Theme",
+		"EditorConfig",
 		"Emmet",
 		"ExpandRegion",
 		"Github Tools",
@@ -13,6 +15,7 @@
 		"jQuery",
 		"Origami",
 		"Package Control",
+		"Pylinter",
 		"Sass",
 		"SideBarEnhancements",
 		"StandardFormat",
