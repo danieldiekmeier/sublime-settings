@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[$1$2 = require '$1$3']]></content>
+	<tabTrigger>req</tabTrigger>
+	<scope>source.coffee</scope>
+</snippet>
