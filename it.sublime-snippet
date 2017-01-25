@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[it('$1', ($2) => {
+	$3
+})]]></content>
+	<tabTrigger>it</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

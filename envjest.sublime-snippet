@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[/* eslint-env $1 */]]></content>
+	<tabTrigger>eslintenv</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
