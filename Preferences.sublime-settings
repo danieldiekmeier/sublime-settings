@@ -18,7 +18,8 @@
 		"node_modules/**",
 		"venv/**",
 		"coverage/**",
-		"docs/**"
+		"docs/**",
+		"build/**"
 	],
 	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
 	"draw_indent_guides": true,
@@ -29,7 +30,8 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"__pycache__"
 	],
 	"font_face": "Roboto Mono",
 	"font_size": 19,

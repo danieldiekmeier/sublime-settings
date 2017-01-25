@@ -26,11 +26,13 @@
 		"Sass",
 		"SideBarEnhancements",
 		"Skins",
+		"StandardFormat",
 		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-standard",
+		"SublimeLinter-flow",
 		"Vue Syntax Highlight"
 	]
 }

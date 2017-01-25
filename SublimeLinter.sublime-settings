@@ -31,9 +31,20 @@
 				[
 				]
 			},
+			"flow":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"show-all-errors": true
+			},
 			"standard":
 			{
-				"@disable": true,
+				"@disable": false,
 				"args":
 				[
 				],
@@ -52,7 +63,7 @@
 			],
 			"osx":
 			[
-				"/Users/Daniel/.nvm/versions/node/v6.7.0/bin"
+				"/usr/local/Cellar/node/7.2.1/bin"
 			],
 			"windows":
 			[

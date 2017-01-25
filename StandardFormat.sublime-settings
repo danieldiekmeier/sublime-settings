@@ -1,3 +1,4 @@
 {
-	"format_on_save": false
+	"format_on_save": false,
+	"PATH": ["/usr/local/Cellar/node/7.2.1/bin/"],
 }
