@@ -34,7 +34,7 @@
 		"__pycache__"
 	],
 	"font_face": "Roboto Mono",
-	"font_size": 19,
+	"font_size": 18,
 	"gutter_theme": "Packages/Boxy Theme/linter/Boxy.gutter-theme",
 	"highlight_line": true,
 	"ignored_packages":
@@ -42,8 +42,8 @@
 		"Pylinter",
 		"Vintage"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"rulers":
 	[
 		80

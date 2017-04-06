@@ -11,7 +11,7 @@
 		"lint_mode": "background",
 		"linters":
 		{
-			"elixirlinter":
+			"coffeelint":
 			{
 				"@disable": false,
 				"args":
@@ -23,7 +23,7 @@
 			},
 			"eslint":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 				],
@@ -31,7 +31,7 @@
 				[
 				]
 			},
-			"flow":
+			"pylint":
 			{
 				"@disable": false,
 				"args":
@@ -43,6 +43,16 @@
 				"show-all-errors": true
 			},
 			"standard":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"tslint":
 			{
 				"@disable": false,
 				"args":
@@ -63,7 +73,8 @@
 			],
 			"osx":
 			[
-				"/usr/local/Cellar/node/7.2.1/bin"
+				"/usr/local/Cellar/node/7.2.1/bin",
+				"/Library/Frameworks/Python.framework/Versions/3.5/bin"
 			],
 			"windows":
 			[
@@ -87,6 +98,7 @@
 		"show_marks_in_minimap": true,
 		"syntax_map":
 		{
+			"coffeescript (gulpfile)": "coffeescript",
 			"html (django)": "html",
 			"html (rails)": "html",
 			"html 5": "html",
@@ -94,7 +106,36 @@
 			"magicpython": "python",
 			"php": "html",
 			"python django": "python",
-			"pythonimproved": "python"
+			"pythonimproved": "python",
+			"javascript (eslint)": "javascript",
+			"javascript (gruntfile)": "javascript",
+			"javascript (gulpfile)": "javascript",
+			"javascript (postcss)": "javascript",
+			"javascript (stylelint)": "javascript",
+			"javascript (webpack)": "javascript",
+			"json (babel)": "json",
+			"json (bower)": "json",
+			"json (composer)": "json",
+			"json (eslint)": "json",
+			"json (npm)": "json",
+			"json (postcss)": "json",
+			"json (settings)": "json",
+			"json (stylelint)": "json",
+			"json (sublime)": "json",
+			"json (tern js)": "json",
+			"magicpython": "python",
+			"php": "html",
+			"python django": "python",
+			"pythonimproved": "python",
+			"xml (config)": "xml",
+			"xml (svg)": "xml",
+			"yaml (circleci)": "yaml",
+			"yaml (docker)": "yaml",
+			"yaml (eslint)": "yaml",
+			"yaml (lock)": "yaml",
+			"yaml (procfile)": "yaml",
+			"yaml (stylelint)": "yaml",
+			"yaml (yarn)": "yaml"
 		},
 		"warning_color": "DDB700",
 		"wrap_find": true
