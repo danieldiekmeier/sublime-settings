@@ -1,0 +1,11 @@
+{
+	"destructuring": true,
+	"var": "const",
+	"exclude_dirs": [
+		".git",
+		"build",
+		"coverage",
+		"ansible",
+		"dist"
+	],
+}

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[/* eslint-env jest */
+
+describe('$1', () => {
+	it('$2', () => {
+		$3
+	})
+})
+]]></content>
+	<tabTrigger>jest</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

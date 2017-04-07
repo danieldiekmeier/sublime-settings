@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
 	"user":
 	{
 		"debug": false,
@@ -141,3 +142,106 @@
 		"wrap_find": true
 	}
 }
+=======
+    "user": {
+        "debug": false, 
+        "delay": 0.25, 
+        "error_color": "D02000", 
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme", 
+        "gutter_theme_excludes": [], 
+        "lint_mode": "background", 
+        "linters": {
+            "elixirlinter": {
+                "@disable": false, 
+                "args": [], 
+                "excludes": []
+            }, 
+            "eslint": {
+                "@disable": false, 
+                "args": [], 
+                "excludes": []
+            }, 
+            "flow": {
+                "@disable": false, 
+                "args": [], 
+                "excludes": [], 
+                "show-all-errors": true
+            }, 
+            "pep8": {
+                "@disable": false, 
+                "args": [], 
+                "excludes": [], 
+                "ignore": "", 
+                "max-line-length": null, 
+                "select": ""
+            }, 
+            "standard": {
+                "@disable": false, 
+                "args": [], 
+                "excludes": []
+            }, 
+            "tslint": {
+                "@disable": false, 
+                "args": [], 
+                "excludes": []
+            }
+        }, 
+        "mark_style": "solid underline", 
+        "no_column_highlights_line": false, 
+        "passive_warnings": false, 
+        "paths": {
+            "linux": [], 
+            "osx": [
+                "/usr/local/Cellar/node/7.2.1/bin"
+            ], 
+            "windows": []
+        }, 
+        "python_paths": {
+            "linux": [], 
+            "osx": [], 
+            "windows": []
+        }, 
+        "rc_search_limit": 3, 
+        "shell_timeout": 10, 
+        "show_errors_on_save": false, 
+        "show_marks_in_minimap": true, 
+        "syntax_map": {
+            "coffeescript (gulpfile)": "coffeescript", 
+            "html (django)": "html", 
+            "html (rails)": "html", 
+            "html 5": "html", 
+            "javascript (babel)": "javascript", 
+            "javascript (eslint)": "javascript", 
+            "javascript (gruntfile)": "javascript", 
+            "javascript (gulpfile)": "javascript", 
+            "javascript (postcss)": "javascript", 
+            "javascript (stylelint)": "javascript", 
+            "javascript (webpack)": "javascript", 
+            "json (babel)": "json", 
+            "json (bower)": "json", 
+            "json (composer)": "json", 
+            "json (eslint)": "json", 
+            "json (npm)": "json", 
+            "json (postcss)": "json", 
+            "json (settings)": "json", 
+            "json (stylelint)": "json", 
+            "json (sublime)": "json", 
+            "magicpython": "python", 
+            "php": "html", 
+            "python django": "python", 
+            "pythonimproved": "python", 
+            "xml (config)": "xml", 
+            "xml (svg)": "xml", 
+            "yaml (circleci)": "yaml", 
+            "yaml (docker)": "yaml", 
+            "yaml (eslint)": "yaml", 
+            "yaml (lock)": "yaml", 
+            "yaml (procfile)": "yaml", 
+            "yaml (stylelint)": "yaml", 
+            "yaml (yarn)": "yaml"
+        }, 
+        "warning_color": "DDB700", 
+        "wrap_find": true
+    }
+}
+>>>>>>> Stashed changes

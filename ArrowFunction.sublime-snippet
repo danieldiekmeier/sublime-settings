@@ -3,5 +3,5 @@
 ($1) => {$2}
 ]]></content>
 	<tabTrigger>arrow</tabTrigger>
-	<scope>source.js</scope>
+	<scope>source.js, source.ts</scope>
 </snippet>

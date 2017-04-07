@@ -1,4 +1,9 @@
 {
 	"tab_size": 2,
+<<<<<<< Updated upstream
 	"translate_tabs_to_spaces": true
+=======
+	"translate_tabs_to_spaces": true,
+	"typescript_auto_format": false
+>>>>>>> Stashed changes
 }

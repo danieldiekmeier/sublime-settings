@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[describe('$1', ($2) => {
-	$3
+	<content><![CDATA[describe('$1', () => {
+	$2
 })]]></content>
 	<tabTrigger>describe</tabTrigger>
 	<scope>source.js</scope>
