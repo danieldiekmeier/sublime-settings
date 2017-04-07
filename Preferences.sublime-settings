@@ -1,7 +1,62 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"dist/**",
+		"node_modules/**",
+		"venv/**",
+		"coverage/**",
+		"docs/**",
+		"build/**"
+	],
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+	"draw_indent_guides": true,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"__pycache__"
+	],
+	"font_face": "Roboto Mono",
+	"font_size": 18,
+	"gutter_theme": "Packages/Boxy Theme/linter/Boxy.gutter-theme",
+	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Pylinter",
 		"Vintage"
-	]
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"theme": "Boxy Ocean.sublime-theme",
+	"theme_accent_green": true,
+	"theme_sidebar_folder_arrow": true,
+	"theme_sidebar_folder_monochrome": true,
+	"theme_tab_selected_underlined": true,
+	"theme_tab_size_md": true,
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true,
+	"wrap_width": 80
 }
