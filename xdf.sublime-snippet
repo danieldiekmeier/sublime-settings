@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[export default function ${1} (${2}) {
+  ${3}
+}]]></content>
+	<tabTrigger>xdf</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
