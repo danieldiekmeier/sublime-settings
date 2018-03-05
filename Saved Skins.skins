@@ -5,11 +5,36 @@
 		{
 			"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
 			"font_face": "Roboto Mono",
-			"font_size": 19,
+			"font_size": 18,
 			"theme": "Boxy Ocean.sublime-theme"
 		},
 		"SublimeLinter":
 		{
+			"user":
+			{
+				"error_color": "D02000",
+				"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+				"warning_color": "DDB700"
+			}
+		}
+	},
+	"Light":
+	{
+		"Preferences":
+		{
+			"color_scheme": "Packages/ayu/ayu-light.tmTheme",
+			"font_face": "Roboto Mono",
+			"font_size": 18,
+			"theme": "Boxy Yesterday.sublime-theme"
+		},
+		"SublimeLinter":
+		{
+			"user":
+			{
+				"error_color": "D02000",
+				"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+				"warning_color": "DDB700"
+			}
 		}
 	}
 }

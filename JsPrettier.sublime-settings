@@ -1,0 +1,9 @@
+{
+	"debug": false,
+	"prettier_cli_path": "/Users/daniel/.nvm/versions/node/v8.1.2/bin/prettier",
+	"auto_format_on_save": false,
+	"prettier_options": {
+		"singleQuote": true,
+		"semi": false
+	}
+}

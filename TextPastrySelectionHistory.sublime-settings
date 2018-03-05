@@ -1,0 +1,35 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"keep": true,
+					"operator": "add",
+					"pattern": "className",
+					"use_regex": true
+				},
+				"command": "text_pastry_modify_selection",
+				"pattern": "className"
+			},
+			"key": "6f66e878c62db60568a3487869695820",
+			"label": "className"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"context": "file",
+			"keep": true,
+			"operator": "add",
+			"pattern": "className",
+			"use_regex": true
+		},
+		"command": "text_pastry_modify_selection",
+		"pattern": "className"
+	}
+}

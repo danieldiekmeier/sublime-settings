@@ -1,5 +1,6 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	"user":
 	{
 		"debug": false,
@@ -145,17 +146,24 @@
 =======
     "user": {
         "debug": false, 
+=======
+    "user": {
+        "debug": true, 
+>>>>>>> Stashed changes
         "delay": 0.25, 
         "error_color": "D02000", 
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme", 
         "gutter_theme_excludes": [], 
         "lint_mode": "background", 
         "linters": {
+<<<<<<< Updated upstream
             "elixirlinter": {
                 "@disable": false, 
                 "args": [], 
                 "excludes": []
             }, 
+=======
+>>>>>>> Stashed changes
             "eslint": {
                 "@disable": false, 
                 "args": [], 
@@ -165,6 +173,7 @@
                 "@disable": false, 
                 "args": [], 
                 "excludes": [], 
+<<<<<<< Updated upstream
                 "show-all-errors": true
             }, 
             "pep8": {
@@ -183,6 +192,22 @@
             "tslint": {
                 "@disable": false, 
                 "args": [], 
+=======
+                "flow-bin": null, 
+                "show-all-errors": true
+            }, 
+            "puglint": {
+                "@disable": false, 
+                "args": [], 
+                "excludes": [], 
+                "reporter": "inline"
+            }, 
+            "standard": {
+                "@disable": true, 
+                "args": [], 
+                "disable_if_not_dependency": true, 
+                "enable_if_dependency": true, 
+>>>>>>> Stashed changes
                 "excludes": []
             }
         }, 
@@ -192,7 +217,11 @@
         "paths": {
             "linux": [], 
             "osx": [
+<<<<<<< Updated upstream
                 "/usr/local/Cellar/node/7.2.1/bin"
+=======
+                "/Users/daniel/.nvm/versions/node/v8.9.1/bin/"
+>>>>>>> Stashed changes
             ], 
             "windows": []
         }, 
@@ -215,6 +244,10 @@
             "javascript (gruntfile)": "javascript", 
             "javascript (gulpfile)": "javascript", 
             "javascript (postcss)": "javascript", 
+<<<<<<< Updated upstream
+=======
+            "javascript (puglint)": "javascript", 
+>>>>>>> Stashed changes
             "javascript (stylelint)": "javascript", 
             "javascript (webpack)": "javascript", 
             "json (babel)": "json", 
@@ -223,13 +256,26 @@
             "json (eslint)": "json", 
             "json (npm)": "json", 
             "json (postcss)": "json", 
+<<<<<<< Updated upstream
             "json (settings)": "json", 
             "json (stylelint)": "json", 
             "json (sublime)": "json", 
+=======
+            "json (puglint)": "json", 
+            "json (settings)": "json", 
+            "json (stylelint)": "json", 
+            "json (sublime)": "json", 
+            "json (tern js)": "json", 
+>>>>>>> Stashed changes
             "magicpython": "python", 
             "php": "html", 
             "python django": "python", 
             "pythonimproved": "python", 
+<<<<<<< Updated upstream
+=======
+            "vue": "javascript", 
+            "vue component": "javascript", 
+>>>>>>> Stashed changes
             "xml (config)": "xml", 
             "xml (svg)": "xml", 
             "yaml (circleci)": "yaml", 
@@ -240,6 +286,18 @@
             "yaml (stylelint)": "yaml", 
             "yaml (yarn)": "yaml"
         }, 
+<<<<<<< Updated upstream
+        "warning_color": "DDB700", 
+        "wrap_find": true
+    }
+}
+>>>>>>> Stashed changes
+=======
+        "tooltip_fontsize": "1rem", 
+        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme", 
+        "tooltip_theme_excludes": [], 
+        "tooltips": false, 
+        "use_current_shell_path": false, 
         "warning_color": "DDB700", 
         "wrap_find": true
     }

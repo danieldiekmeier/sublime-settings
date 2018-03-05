@@ -1,4 +1,21 @@
 [
+	// for MultiEditUtils
+	{ "keys": ["super+k", "super+s"], "command": "strip_selection" },
+	{ "keys": ["super+alt+s"], "command": "save_all" },
+
+	// { "keys": ["escape", "d"], "command": "example" },
+	{ "keys": ["ctrl+m"], "command": "expand_region" },
+	{
+		"keys": ["ctrl+shift+m"],
+		"command": "expand_region",
+		"args": {"undo": true},
+		"context": [{ "key": "expand_region_soft_undo" }]
+	},
+
+	// always indent
+	{ "keys": ["alt+tab"], "command": "indent" },
+	{ "keys": ["alt+shift+tab"], "command": "unindent" },
+
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
 	{ "keys": ["super+shift+v"], "command": "paste" },
 
@@ -36,5 +53,8 @@
 
 	// move line
 	{ "keys": ["ctrl+super+i"], "command": "swap_line_up" },
-	{ "keys": ["ctrl+super+k"], "command": "swap_line_down" }
+	{ "keys": ["ctrl+super+k"], "command": "swap_line_down" },
+
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
 ]
