@@ -1,305 +1,35 @@
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	"user":
-	{
-		"debug": false,
-		"delay": 0.25,
-		"error_color": "D02000",
-		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
-		"gutter_theme_excludes":
-		[
-		],
-		"lint_mode": "background",
-		"linters":
-		{
-			"coffeelint":
-			{
-				"@disable": false,
-				"args":
-				[
-				],
-				"excludes":
-				[
-				]
-			},
-			"eslint":
-			{
-				"@disable": true,
-				"args":
-				[
-				],
-				"excludes":
-				[
-				]
-			},
-			"pylint":
-			{
-				"@disable": false,
-				"args":
-				[
-				],
-				"excludes":
-				[
-				],
-				"show-all-errors": true
-			},
-			"standard":
-			{
-				"@disable": false,
-				"args":
-				[
-				],
-				"excludes":
-				[
-				]
-			},
-			"tslint":
-			{
-				"@disable": false,
-				"args":
-				[
-				],
-				"excludes":
-				[
-				]
-			}
-		},
-		"mark_style": "solid underline",
-		"no_column_highlights_line": false,
-		"passive_warnings": false,
-		"paths":
-		{
-			"linux":
-			[
-			],
-			"osx":
-			[
-				"/usr/local/Cellar/node/7.2.1/bin",
-				"/Library/Frameworks/Python.framework/Versions/3.5/bin"
-			],
-			"windows":
-			[
-			]
-		},
-		"python_paths":
-		{
-			"linux":
-			[
-			],
-			"osx":
-			[
-			],
-			"windows":
-			[
-			]
-		},
-		"rc_search_limit": 3,
-		"shell_timeout": 10,
-		"show_errors_on_save": false,
-		"show_marks_in_minimap": true,
-		"syntax_map":
-		{
-			"coffeescript (gulpfile)": "coffeescript",
-			"html (django)": "html",
-			"html (rails)": "html",
-			"html 5": "html",
-			"javascript (babel)": "javascript",
-			"magicpython": "python",
-			"php": "html",
-			"python django": "python",
-			"pythonimproved": "python",
-			"javascript (eslint)": "javascript",
-			"javascript (gruntfile)": "javascript",
-			"javascript (gulpfile)": "javascript",
-			"javascript (postcss)": "javascript",
-			"javascript (stylelint)": "javascript",
-			"javascript (webpack)": "javascript",
-			"json (babel)": "json",
-			"json (bower)": "json",
-			"json (composer)": "json",
-			"json (eslint)": "json",
-			"json (npm)": "json",
-			"json (postcss)": "json",
-			"json (settings)": "json",
-			"json (stylelint)": "json",
-			"json (sublime)": "json",
-			"json (tern js)": "json",
-			"magicpython": "python",
-			"php": "html",
-			"python django": "python",
-			"pythonimproved": "python",
-			"xml (config)": "xml",
-			"xml (svg)": "xml",
-			"yaml (circleci)": "yaml",
-			"yaml (docker)": "yaml",
-			"yaml (eslint)": "yaml",
-			"yaml (lock)": "yaml",
-			"yaml (procfile)": "yaml",
-			"yaml (stylelint)": "yaml",
-			"yaml (yarn)": "yaml"
-		},
-		"warning_color": "DDB700",
-		"wrap_find": true
-	}
+    "paths": {
+        "osx": [
+            "/Users/daniel/.nvm/versions/node/v8.9.4/bin"
+        ],
+    },
+
+    "linters": {
+        "eslint": {
+            "selector": "source.js, text.html.vue",
+            "excludes": ["*/*.ejs", "*/*.dot"]
+        }
+    },
+
+    "styles": [
+        {
+            "mark_style": "solid_underline",
+            "priority": 1,
+            "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "warning"
+            ]
+        },
+        {
+            "mark_style": "solid_underline",
+            "priority": 1,
+            "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "error"
+            ]
+        }
+    ]
 }
-=======
-    "user": {
-        "debug": false, 
-=======
-    "user": {
-        "debug": true, 
->>>>>>> Stashed changes
-        "delay": 0.25, 
-        "error_color": "D02000", 
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme", 
-        "gutter_theme_excludes": [], 
-        "lint_mode": "background", 
-        "linters": {
-<<<<<<< Updated upstream
-            "elixirlinter": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": []
-            }, 
-=======
->>>>>>> Stashed changes
-            "eslint": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": []
-            }, 
-            "flow": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": [], 
-<<<<<<< Updated upstream
-                "show-all-errors": true
-            }, 
-            "pep8": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": [], 
-                "ignore": "", 
-                "max-line-length": null, 
-                "select": ""
-            }, 
-            "standard": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": []
-            }, 
-            "tslint": {
-                "@disable": false, 
-                "args": [], 
-=======
-                "flow-bin": null, 
-                "show-all-errors": true
-            }, 
-            "puglint": {
-                "@disable": false, 
-                "args": [], 
-                "excludes": [], 
-                "reporter": "inline"
-            }, 
-            "standard": {
-                "@disable": true, 
-                "args": [], 
-                "disable_if_not_dependency": true, 
-                "enable_if_dependency": true, 
->>>>>>> Stashed changes
-                "excludes": []
-            }
-        }, 
-        "mark_style": "solid underline", 
-        "no_column_highlights_line": false, 
-        "passive_warnings": false, 
-        "paths": {
-            "linux": [], 
-            "osx": [
-<<<<<<< Updated upstream
-                "/usr/local/Cellar/node/7.2.1/bin"
-=======
-                "/Users/daniel/.nvm/versions/node/v8.9.1/bin/"
->>>>>>> Stashed changes
-            ], 
-            "windows": []
-        }, 
-        "python_paths": {
-            "linux": [], 
-            "osx": [], 
-            "windows": []
-        }, 
-        "rc_search_limit": 3, 
-        "shell_timeout": 10, 
-        "show_errors_on_save": false, 
-        "show_marks_in_minimap": true, 
-        "syntax_map": {
-            "coffeescript (gulpfile)": "coffeescript", 
-            "html (django)": "html", 
-            "html (rails)": "html", 
-            "html 5": "html", 
-            "javascript (babel)": "javascript", 
-            "javascript (eslint)": "javascript", 
-            "javascript (gruntfile)": "javascript", 
-            "javascript (gulpfile)": "javascript", 
-            "javascript (postcss)": "javascript", 
-<<<<<<< Updated upstream
-=======
-            "javascript (puglint)": "javascript", 
->>>>>>> Stashed changes
-            "javascript (stylelint)": "javascript", 
-            "javascript (webpack)": "javascript", 
-            "json (babel)": "json", 
-            "json (bower)": "json", 
-            "json (composer)": "json", 
-            "json (eslint)": "json", 
-            "json (npm)": "json", 
-            "json (postcss)": "json", 
-<<<<<<< Updated upstream
-            "json (settings)": "json", 
-            "json (stylelint)": "json", 
-            "json (sublime)": "json", 
-=======
-            "json (puglint)": "json", 
-            "json (settings)": "json", 
-            "json (stylelint)": "json", 
-            "json (sublime)": "json", 
-            "json (tern js)": "json", 
->>>>>>> Stashed changes
-            "magicpython": "python", 
-            "php": "html", 
-            "python django": "python", 
-            "pythonimproved": "python", 
-<<<<<<< Updated upstream
-=======
-            "vue": "javascript", 
-            "vue component": "javascript", 
->>>>>>> Stashed changes
-            "xml (config)": "xml", 
-            "xml (svg)": "xml", 
-            "yaml (circleci)": "yaml", 
-            "yaml (docker)": "yaml", 
-            "yaml (eslint)": "yaml", 
-            "yaml (lock)": "yaml", 
-            "yaml (procfile)": "yaml", 
-            "yaml (stylelint)": "yaml", 
-            "yaml (yarn)": "yaml"
-        }, 
-<<<<<<< Updated upstream
-        "warning_color": "DDB700", 
-        "wrap_find": true
-    }
-}
->>>>>>> Stashed changes
-=======
-        "tooltip_fontsize": "1rem", 
-        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme", 
-        "tooltip_theme_excludes": [], 
-        "tooltips": false, 
-        "use_current_shell_path": false, 
-        "warning_color": "DDB700", 
-        "wrap_find": true
-    }
-}
->>>>>>> Stashed changes

@@ -16,13 +16,15 @@
 		"*.zip",
 		"dist/**",
 		"node_modules/**",
+		"**/node_modules/**",
 		"venv/**",
 		"coverage/**",
 		"docs/**",
 		"build/**",
 		"templates-dist/**",
 		"lesetagebuch/static/**",
-		"vendor/**"
+		"vendor/**",
+		".cache-loader/**"
 	],
 	"caret_style": "solid",
 	"color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
@@ -38,12 +40,13 @@
 		"__pycache__"
 	],
 	"font_face": "Roboto Mono",
-	"font_size": 18,
+	"font_size": 21,
 	"gutter_theme": "Packages/Boxy Theme/linter/Boxy.gutter-theme",
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Cucumber",
+		"GitGutter",
 		"Jade",
 		"JavaScript",
 		"Javascript Beautify",
@@ -58,7 +61,6 @@
 		80
 	],
 	"scroll_past_end": true,
-	"skin": "DA UI/Minimal",
 	"theme": "ayu-mirage.sublime-theme",
 	"theme_accent_green": true,
 	"theme_sidebar_folder_arrow": true,
@@ -67,6 +69,7 @@
 	"theme_tab_size_md": true,
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,
+	"ui_separator": true,
 	"word_wrap": true,
 	"wrap_width": 80
 }

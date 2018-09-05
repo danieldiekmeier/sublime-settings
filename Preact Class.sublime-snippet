@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+import { h, Component } from 'preact'
+
+export default class ${1} extends Component {
+  render () {
+    ${2}
+  }
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>preactclass</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

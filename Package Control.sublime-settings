@@ -1,3 +1,44 @@
 {
-	"bootstrapped": true
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"arduino-cli",
+		"Better CoffeeScript",
+		"Boxy Theme",
+		"Color Highlighter",
+		"EditorConfig",
+		"Elixir",
+		"ElixirSublime",
+		"Emmet",
+		"ExpandRegion",
+		"GitGutter",
+		"Github Tools",
+		"GraphQL",
+		"Jinja2",
+		"jQuery",
+		"Node Completions",
+		"NodeRequirer",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"Pylinter",
+		"Sass",
+		"SideBarEnhancements",
+		"Skins",
+		"StandardFormat",
+		"Stylus",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-standard",
+		"SublimeLinter-contrib-tslint",
+		"SublimeLinter-flow",
+		"SublimeLinter-pep8",
+		"TypeScript",
+		"Vue Syntax Highlight"
+	]
 }
