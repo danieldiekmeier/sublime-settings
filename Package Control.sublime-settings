@@ -7,6 +7,8 @@
 	[
 		"A File Icon",
 		"arduino-cli",
+		"ayu",
+		"Babel",
 		"Better CoffeeScript",
 		"Boxy Theme",
 		"Color Highlighter",
@@ -20,6 +22,7 @@
 		"GraphQL",
 		"Jinja2",
 		"jQuery",
+		"JsPrettier",
 		"Node Completions",
 		"NodeRequirer",
 		"Origami",
@@ -33,11 +36,12 @@
 		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-standard",
-		"SublimeLinter-contrib-tslint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-flow",
 		"SublimeLinter-pep8",
+		"SublimeLinter-tslint",
+		"Text Pastry",
 		"TypeScript",
 		"Vue Syntax Highlight"
 	]

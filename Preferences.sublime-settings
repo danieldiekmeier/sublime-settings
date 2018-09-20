@@ -52,6 +52,7 @@
 		"Javascript Beautify",
 		"Jekyll",
 		"Pylinter",
+		"Svelte",
 		"Vintage"
 	],
 	"line_padding_bottom": 3,
