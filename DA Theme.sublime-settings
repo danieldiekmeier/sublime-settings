@@ -1,5 +1,5 @@
 {
-	"accent_color": "#00b363",
+	"accent_color": "$scheme_accent_color",
 	"skin":
 	{
 		"id": "minimal",
@@ -108,15 +108,5 @@
 			"tabset_padding": 0,
 			"title_bar_background_color": "$overlay_background_color"
 		}
-	},
-	"tab_border_width": 2,
-	"tab_height": 31,
-	"tab_line_flavor": "underlined",
-	"tab_padding":
-	[
-		12,
-		7,
-		12,
-		5
-	]
+	}
 }

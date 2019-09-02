@@ -1,4 +1,5 @@
 {
+	"_origami_auto_zoom_on_focus": 0.66,
 	"binary_file_patterns":
 	[
 		"*.dds",
@@ -8,6 +9,7 @@
 		"*.jar",
 		"*.jpeg",
 		"*.jpg",
+		"*.map",
 		"*.pdf",
 		"*.png",
 		"*.swf",
@@ -16,21 +18,28 @@
 		"*.zip",
 		"dist/**",
 		"node_modules/**",
-		"**/node_modules/**",
 		"venv/**",
+		".venv/**",
 		"coverage/**",
 		"docs/**",
 		"build/**",
 		"templates-dist/**",
-		"lesetagebuch/static/**",
-		"vendor/**",
-		".cache-loader/**"
+		"_build/**",
+		"lesetagebuch/static/style.css",
+		"lesetagebuch/static/main.js",
+		"lesetagebuch/static/**/*.js",
+		"package-lock.json",
+		"code/contao/vendor/**",
+		"code/contao/files/**",
+		"code/contao/var/cache/**",
+		"code/api/vendor/**",
+		"patternlab/public/**"
 	],
 	"caret_style": "solid",
-	"color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
+	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
+	"ensure_newline_at_eof_on_save": false,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -40,37 +49,43 @@
 		"__pycache__"
 	],
 	"font_face": "Roboto Mono",
-	"font_size": 21,
+	"font_size": 17,
 	"gutter_theme": "Packages/Boxy Theme/linter/Boxy.gutter-theme",
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Cucumber",
 		"GitGutter",
-		"Jade",
-		"JavaScript",
-		"Javascript Beautify",
+		"Github Tools",
 		"Jekyll",
+		"Naomi",
 		"Pylinter",
-		"Svelte",
-		"Vintage"
+		"StandardFormat",
+		"SublimeLinter",
+		"SublimeLinter-tslint",
+		"zzz A File Icon zzz"
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
+	"mini_diff": false,
 	"rulers":
 	[
-		80
+		81
 	],
 	"scroll_past_end": true,
+	"show_git_status": false,
+	"skin": "ayu/ayu mirage",
+	"tab_size": 2,
 	"theme": "ayu-mirage.sublime-theme",
 	"theme_accent_green": true,
 	"theme_sidebar_folder_arrow": true,
 	"theme_sidebar_folder_monochrome": true,
 	"theme_tab_selected_underlined": true,
 	"theme_tab_size_md": true,
+	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,
 	"ui_separator": true,
+	"use_tab_stops": false,
 	"word_wrap": true,
-	"wrap_width": 80
+	"wrap_width": 81
 }

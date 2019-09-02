@@ -1,35 +1,36 @@
+// SublimeLinter Settings - User
 {
-    "paths": {
-        "osx": [
-            "/Users/daniel/.nvm/versions/node/v8.9.4/bin"
-        ],
-    },
+  "debug": true,
 
-    "linters": {
-        "eslint": {
-            "selector": "source.js, text.html.vue",
-            "excludes": ["*/*.ejs", "*/*.dot"]
-        }
+  "linters": {
+    "elixirc": {
+      "disable": true,
+      "mix_project": true,
+      "chdir": "/Users/Daniel/dev/elixir/food"
     },
+    "elixirlinter": {
+      "disable": true
+    },
+    "standard": {
+      "disable": true
+    },
+    "eslint": {
+      "selector": "source.js, text.html.vue, source.ts, source.jsx, source.tsx",
+      "excludes": "*/*.html.ejs"
+    },
+    "tslint": {
+      "args": ["--project", "${folder}/tslint.json"]
+    },
+    "php": {
+      "disable": true
+    }
+  },
 
-    "styles": [
-        {
-            "mark_style": "solid_underline",
-            "priority": 1,
-            "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
-            "icon": "dot",
-            "types": [
-                "warning"
-            ]
-        },
-        {
-            "mark_style": "solid_underline",
-            "priority": 1,
-            "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
-            "icon": "dot",
-            "types": [
-                "error"
-            ]
-        }
-    ]
+  "syntax_map": {
+    "ejs": "html"
+  },
+
+  "paths": {
+    "osx": ["/Users/Daniel/.nvm/versions/node/v8.11.3/bin"]
+  }
 }

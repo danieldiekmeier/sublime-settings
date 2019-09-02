@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<% ${2:${1:thing}s}.forEach(${3:${1:thing}} => { %>
+  <%= ${4:${1:thing}} %>
+<% }) %>
+]]></content>
+  <tabTrigger>for</tabTrigger>
+  <scope>text.ejs.percentsign</scope>
+</snippet>

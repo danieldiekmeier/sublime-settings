@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<%= ${1:thing} %>
+]]></content>
+  <tabTrigger>print</tabTrigger>
+  <scope>text.ejs.percentsign</scope>
+</snippet>
